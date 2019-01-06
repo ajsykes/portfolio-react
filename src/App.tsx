@@ -1,31 +1,35 @@
 import * as React from 'react';
+import {Route, Switch, Redirect} from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
-import NavigationItems from './components/Navigation/NavigationItems/NavigationItems';
 import Layout from './hoc/Layout/Layout';
+import Home from './components/containers/Home/Home';
+import About from './components/containers/About/About';
+import Projects from './components/containers/Projects/Projects';
+import Reading from './components/containers/Reading/Reading';
+import Learning from './components/containers/Learning/Learning';
 
 // import logo from './logo.svg';
 
 class App extends React.Component {
   public render() {
+
+    let routes = (
+      <Switch>
+        <Route path="/about" component={About}/>
+        <Route path="/projects" component={Projects}/>
+        <Route path="/learning" component={Learning} />
+        <Route path="/reading" component={Reading}/>
+        <Route path="/" component={Home}/>
+        <Redirect to="/"/>
+      </Switch>
+    )
+
     return (
       <>
         <Layout>
-
+          {routes}
         </Layout>
       </>
-
-      // <div className="App">
-      //   <Header />
-      //   <NavigationItems />
-      //   {/* <header className="App-header">
-      //     <img src={logo} className="App-logo" alt="logo" />
-      //     <h1 className="App-title">Welcome to React</h1>
-      //   </header>
-      //   <p className="App-intro">
-      //     To get started, edit <code>src/App.tsx</code> and save to reload.
-      //   </p> */}
-      // </div>
     );
   }
 }

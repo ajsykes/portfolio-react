@@ -1,6 +1,4 @@
 import * as React from 'react';
-import Header from 'src/components/Header/Header';
-import NavigationItems from 'src/components/Navigation/NavigationItems/NavigationItems';
 
 export interface Props {
 
@@ -10,12 +8,17 @@ class Layout extends React.Component<Props, object>{
     render() {
         return (
             <>
-                <header>
+                <style>@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');</style>
+                <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans');</style>
+                <main className="flex flex-col">
+                    {this.props.children}
+                </main>
+                {/* <header>
                     <Header />
                     <nav>
                         <NavigationItems />
                     </nav>
-                </header>
+                </header> */}
             </>
         )
     }

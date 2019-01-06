@@ -1,15 +1,19 @@
 import * as React from "react";
+import { NavLink } from "react-router-dom";
 
 export interface Props {
-    link: string
+    link: string,
+    children?: React.ReactNode
 }
 
-function NavigationItem({ }: Props) {
+function NavigationItem({ link, children }: Props) {
 
     return (
-        <div>
-
-        </div>
+        <li>
+            <NavLink to={link} exact>
+                {children}
+            </NavLink>
+        </li>
     );
 }
 
