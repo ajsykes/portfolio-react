@@ -7,7 +7,7 @@ const ProjectSection: React.FunctionComponent = () => {
                 <img src=""/>
             </div>
             <aside className="flex flex-col flex-1 text-accent justify-center items-center">
-                <h1 className="font-serif text-5xl my-6">Occasionally I work on tech projects.</h1>
+                <h1 className="font-serif text-5xl my-6">Occasionally I work on tech projects</h1>
                 <p className="my-6">
                     
                 </p>

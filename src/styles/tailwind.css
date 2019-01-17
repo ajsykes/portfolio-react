@@ -862,7 +862,7 @@ table {
 }
 
 .bg-reading {
-  background-color: ;
+  background-color: #258ea6;
 }
 
 .hover\:bg-transparent:hover {
@@ -1174,7 +1174,7 @@ table {
 }
 
 .hover\:bg-reading:hover {
-  background-color: ;
+  background-color: #258ea6;
 }
 
 .focus\:bg-transparent:focus {
@@ -1486,7 +1486,7 @@ table {
 }
 
 .focus\:bg-reading:focus {
-  background-color: ;
+  background-color: #258ea6;
 }
 
 .bg-bottom {
@@ -6539,7 +6539,7 @@ table {
   }
 
   .sm\:bg-reading {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .sm\:hover\:bg-transparent:hover {
@@ -6851,7 +6851,7 @@ table {
   }
 
   .sm\:hover\:bg-reading:hover {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .sm\:focus\:bg-transparent:focus {
@@ -7163,7 +7163,7 @@ table {
   }
 
   .sm\:focus\:bg-reading:focus {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .sm\:bg-bottom {
@@ -12193,7 +12193,7 @@ table {
   }
 
   .md\:bg-reading {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -12505,7 +12505,7 @@ table {
   }
 
   .md\:hover\:bg-reading:hover {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .md\:focus\:bg-transparent:focus {
@@ -12817,7 +12817,7 @@ table {
   }
 
   .md\:focus\:bg-reading:focus {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .md\:bg-bottom {
@@ -17847,7 +17847,7 @@ table {
   }
 
   .lg\:bg-reading {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .lg\:hover\:bg-transparent:hover {
@@ -18159,7 +18159,7 @@ table {
   }
 
   .lg\:hover\:bg-reading:hover {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .lg\:focus\:bg-transparent:focus {
@@ -18471,7 +18471,7 @@ table {
   }
 
   .lg\:focus\:bg-reading:focus {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .lg\:bg-bottom {
@@ -23501,7 +23501,7 @@ table {
   }
 
   .xl\:bg-reading {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .xl\:hover\:bg-transparent:hover {
@@ -23813,7 +23813,7 @@ table {
   }
 
   .xl\:hover\:bg-reading:hover {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .xl\:focus\:bg-transparent:focus {
@@ -24125,7 +24125,7 @@ table {
   }
 
   .xl\:focus\:bg-reading:focus {
-    background-color: ;
+    background-color: #258ea6;
   }
 
   .xl\:bg-bottom {

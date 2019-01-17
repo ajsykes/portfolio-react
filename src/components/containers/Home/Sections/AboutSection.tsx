@@ -4,7 +4,7 @@ const AboutSection: React.FunctionComponent = () => {
     return (
         <section id="about" className="flex flex-row h-screen border-box bg-white mx-w-sm shadow-lg" style={{ padding: "10vh 6vw" }}>
             <aside className="flex flex-col flex-1 text-accent justify-center items-center">
-                <h1 className="font-serif text-5xl my-6">I'm a software engineer out of Minneapolis</h1>
+                <h1 className="font-serif text-5xl my-6">I'm a software engineer based out of Minneapolis</h1>
                 <p className="text-lg font-sans my-6">
                     I work at FindLaw.com as a software engineer. Some of my interests include full-stack development, entrepreneurship, and startups.
                     I graduated from Iowa State University with a degree in Computer Science.

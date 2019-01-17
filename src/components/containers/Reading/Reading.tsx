@@ -4,7 +4,7 @@ import * as React from 'react';
 class Reading extends React.Component {
     render() {
         return (
-            <div></div>
+            <div>Reading</div>
         );
     }
 }

@@ -9,7 +9,7 @@ export interface Props {
 function NavigationItem({ link, children }: Props) {
 
     return (
-        <li>
+        <li className="inline-block px-3">
             <NavLink to={link} exact>
                 {children}
             </NavLink>

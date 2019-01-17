@@ -9,7 +9,7 @@ export interface Props {
 function NavigationItems({ }: Props) {
 
     return (
-        <ul>
+        <ul className="list-reset">
             <NavigationItem link="#about">About</NavigationItem>
             <NavigationItem link="#projects">Projects</NavigationItem>
             <NavigationItem link="#learning">What I'm Learning</NavigationItem>
